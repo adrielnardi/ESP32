@@ -13,14 +13,14 @@ Neste projeto foi usado uma placa Esp32, conectando o seu dispositivo em um Brok
 
 Conforme a imagem abaixo, podemos ver através do monitor serial da IDE Arduino o dado sendo enviado da placa esp32 para o Broker MQTT público.
 
-[imagem]
+![](https://github.com/adrielnardi/ESP32/blob/main/ESP32MQTT/img/monitorSerial.PNG)
+
 ##### HiveMQ
 
-Conforme a imagem abaixo, podemos ver através do Dashboard os dados da umidade aparecendo no painel de mensagens.
+Conforme a imagem abaixo, podemos ver através do Dashboard os dados da umidade aparecendo no painel de mensagens. Foi preciso configurar o host, a porta(8000), subscription e o cliendID.
 
-Foi preciso configurar o host, a porta(8000), subscription e o cliendID.
 
-[imagem]
+![](https://github.com/adrielnardi/ESP32/blob/main/ESP32MQTT/img/hiveMQTT.PNG)
 
 ### Referências
 
