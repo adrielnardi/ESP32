@@ -34,7 +34,7 @@ void setup() {
   //Conectando ao servidor MQTT
   mqttClient.setServer(mqttServer, mqttPort); 
    while (!mqttClient.connected()) {
-    String clientId = "ESP32Client-";
+    String clientId = "clientId-YegxBsCCCi";
     clientId += String(random(0xffff), HEX);
     if (mqttClient.connect(clientId.c_str())) { // tenta conectar
       // Serial.print("MQTT Connected on ");
