@@ -37,4 +37,5 @@ Conforme a imagem abaixo, podemos ver através do Dashboard os dados da umidade 
 - [Hivemq](https://www.hivemq.com/mqtt-cloud-broker/) 
 - [PubSubClient](https://github.com/knolleary/pubsubclient)
 - [Example MQTT](https://github.com/knolleary/pubsubclient/tree/master/examples/mqtt_basic)
+- [IDE Arduino](https://www.arduino.cc/en/software) 
 
