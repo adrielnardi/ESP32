@@ -8,6 +8,16 @@ Neste projeto foi usado uma placa Esp32, conectando o seu dispositivo em um Brok
 
 ### 2) Funcionamento
 
+Foi utilizado a IDE Arduino para desenvolvimento do código, em uma placa esp32 foi conectado o seu wifi com a nossa rede local, em seguida, ela conecta no servidor público através do endereço abaixo:
+
+```
+mqtt://broker.hivemq.com:1883
+```
+
+Foi gerado uma variável random para simular a humidade (valores entre 55% a 100% ), e a cada 60 segundos, o valor gerado é enviado para o servidor público.
+
+Detalhes do código-fonte esta disponível em [ESP32MQTT.ino](https://github.com/adrielnardi/ESP32/blob/main/ESP32MQTT/ESP32MQTT.ino)
+
 ### 3) Output
 ##### 3.1) Monitor Serial
 
